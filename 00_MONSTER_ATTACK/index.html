@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Attack</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/scripts/vendor.js" defer></script>
+    <script src="./assets/scripts/app.js" defer></script>
+</head>
+<body>
+    <div id="health-levels">
+        <h2>MONSTER HEALTH</h2>
+        <progress id="monster-health" max="100" value="100">100%</progress>
+        <h2>PLAYER HEALTH <span id="bonus-life"></span></h2>
+        <progress id="player-health" max="100" value="100">100%</progress>
+    </div>
+    <div id="commands">
+        <button id="attack">ATTACK</button>
+        <button id="strong-attack">STRONG ATTACK</button>
+        <button id="heal">HEAL</button>
+        <button id="show-log">SHOW LOG</button>
+    </div>
+</body>
+</html>

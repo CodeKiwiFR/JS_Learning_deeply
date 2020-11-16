@@ -1,0 +1,264 @@
+/* General stuff */
+body {
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+.course-creation,
+.course-display,
+footer {
+    min-width: 300px;
+    max-width: 600px;
+    width: 90%;
+    margin: 15px 0 0 0;
+}
+
+.main-title {
+    font-family: "Bangers", cursive;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 2.3em;
+    text-decoration: underline;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+
+legend {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer p {
+    text-align: right;
+}
+
+input:focus,
+select:focus,
+button:focus,
+.course-details-more,
+.course-details-delete {
+    outline: 1px solid transparent;
+}
+
+.practical-option {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.row-visible {
+    display: table-row;
+}
+
+/* Course add section */
+.course-creation table {
+    margin: auto;
+}
+
+.course-creation tr {
+    height: 40px;
+}
+
+.course-creation label {
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+.course-creation input[type="text"],
+.course-creation input[type="number"] {
+    height: 30px;
+    width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    padding: 0 10px;
+    box-sizing: content-box;
+}
+
+.course-creation select {
+    height: 25px;
+    width: 120px;
+    border-radius: 50px;
+    font-family: "Inconsolata", monospace;
+    background-color: white;
+    text-align-last: center;
+    border: 2px solid lightgray;
+}
+
+.course-creation input[type="text"]:focus,
+.course-creation input[type="number"]:focus,
+.course-creation select:focus {
+    border-color: black;
+}
+
+.td-submit {
+    text-align: center;
+}
+
+.td-submit button {
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.td-submit button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Course details (list of your courses section */
+.course-display h2 {
+    text-align: center;
+    color: #666;
+}
+
+.course-details {
+    margin: 20px 0;
+    border-bottom: 2px dotted black;
+    padding: 0 0 10px 0;
+}
+
+.course-details-intro,
+.course-details-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.course-details-intro {
+    height: 30px;
+}
+
+.course-details-price {
+    font-family: "Bangers", cursive;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 50%;
+    animation-name: price-animation;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes price-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-0.5px, 0);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    75% {
+        transform: translate(0.5px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+p.course-details-description {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.course-details-length {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.course-details-title {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.course-details-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.course-details-more,
+.course-details-delete {
+    padding: 5px 10px;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 80px;
+    margin-right: 5px;
+}
+
+.course-details-more {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.course-details-more:hover {
+    background-color: white;
+    color: black;
+}
+
+.course-details-delete {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.course-details-delete:hover {
+    background-color: white;
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    .main-title {
+        font-size: 1.8em;
+    }
+
+    .course-creation input[type="text"],
+    .course-creation input[type="number"] {
+        height: 25px;
+        width: 130px;
+    }
+
+    .course-details-more,
+    .course-details-delete {
+        padding: 5px;
+        font-weight: normal;
+        font-size: 0.8em;
+        width: auto;
+    }
+
+    .course-details-title {
+        font-size: 1.1em;
+    }
+}

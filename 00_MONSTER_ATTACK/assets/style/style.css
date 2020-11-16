@@ -1,0 +1,82 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(59, 0, 54);
+}
+
+#health-levels, #commands {
+    margin: 30px auto;
+    width: 25%;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+#health-levels {
+    text-align: center;
+}
+
+#bonus-life {
+    padding: 5px 10px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6em;
+    cursor: pointer;
+}
+
+#health-levels progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 2rem;
+    color: #ff0062;
+    border: 1px solid darkorange;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: darkorange;
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: darkorange;
+  transition: all 0.2s ease-out;
+}
+
+#commands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#commands button {
+    margin: 10px 0;
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#commands button:hover {
+    background-color: violet;
+}
+
+#commands button:focus {
+    outline: none;
+}

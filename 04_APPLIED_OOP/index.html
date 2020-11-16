@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Course Management</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inconsolata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/styles/style.css" />
+        <script src="./assets/scripts/app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="main-title">Course Catalog</h1>
+        </header>
+
+        <form id="course-creation" class="course-creation">
+            <fieldset>
+                <legend>Add a course to your catalog:</legend>
+                <table>
+                    <tr>
+                        <td><label for="course-title">Title: </label></td>
+                        <td>
+                            <input type="text" id="course-title" name="title" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="course-sumup">Description: </label></td>
+                        <td>
+                            <input type="text" id="course-sumup" name="sumup" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="course-length">Length: </label></td>
+                        <td>
+                            <input
+                                type="number"
+                                id="course-length"
+                                name="length"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="course-price">Price: </label></td>
+                        <td>
+                            <input
+                                type="number"
+                                id="course-price"
+                                name="price"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="course-type">Type: </label></td>
+                        <td id="type-selection">
+                            <select name="type" id="course-type">
+                                <option value="Classical">Classical</option>
+                                <option value="Practical">Practical</option>
+                                <option value="Theoretical">Theoretical</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="practical-option">
+                        <td>
+                            <label for="course-exercises">
+                                Number of exercices:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" id="course-exercises" name="course-exercises" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="td-submit"><button type="button" id="submit-button">Submit</button></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <div class="course-display">
+            <fieldset id="course-display">
+                <legend>Your Courses:</legend>
+                <h2 id="no-course-title">List of your courses here...</h2>
+            </fieldset>
+        </div>
+
+        <footer><p>&copy; CodeKiwiFR</p></footer>
+    </body>
+</html>
