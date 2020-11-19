@@ -50,3 +50,13 @@ Here are the small projects from the course.<br><br>
   <br>
   </p>
 </details>
+
+### Practive OOP & Classes
+<details>
+  <summary>Details</summary>
+  <p>
+  This is a second recap about OOP. It's a code along project very helpful because I did not code during last month.
+  Here we just manage projects from a current section to a finished one.
+  <br>
+  </p>
+</details>
