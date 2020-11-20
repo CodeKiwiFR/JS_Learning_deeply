@@ -60,3 +60,12 @@ Here are the small projects from the course.<br><br>
   <br>
   </p>
 </details>
+
+### Back to the DOM
+<details>
+  <summary>Details</summary>
+  <p>
+  Here, we upgrade the previous project by learning more about the DOM and what tools the browser provides us.
+  <br>
+  </p>
+</details>
