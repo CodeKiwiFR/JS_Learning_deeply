@@ -180,6 +180,7 @@ class ProjectList {
         this.connectDropable();
     }
 
+    // Adding the drag'n'drop to the lists
     connectDropable() {
         const list = document.querySelector(`#${this.type}-projects ul`);
 
