@@ -3,7 +3,7 @@
 In order to teach myself about JS, I have been following Academind course about JS.<br>
 Here are the small projects from the course.<br><br>
 
-### Monster Attack
+### 00] Monster Attack
 <details>
   <summary>Details</summary>
   <p>
@@ -12,7 +12,7 @@ Here are the small projects from the course.<br><br>
   </p>
 </details>
 
-### Movie_DOM_App
+### 01] Movie_DOM_App
 <details>
   <summary>Details</summary>
   <p>
@@ -23,7 +23,7 @@ Here are the small projects from the course.<br><br>
 </details>
 
 
-### Movie_DOM_App_2
+### 02] Movie_DOM_App_2
 <details>
   <summary>Details</summary>
   <p>
@@ -33,7 +33,7 @@ Here are the small projects from the course.<br><br>
   </p>
 </details>
 
-### Small Shop
+### 03] Small Shop
 <details>
   <summary>Details</summary>
   <p>
@@ -42,7 +42,7 @@ Here are the small projects from the course.<br><br>
   </p>
 </details>
 
-### Applied_oop
+### 04] Applied_oop
 <details>
   <summary>Details</summary>
   <p>
@@ -51,7 +51,7 @@ Here are the small projects from the course.<br><br>
   </p>
 </details>
 
-### Practive OOP & Classes
+### 05] Practive OOP & Classes
 <details>
   <summary>Details</summary>
   <p>
@@ -61,11 +61,49 @@ Here are the small projects from the course.<br><br>
   </p>
 </details>
 
-### Back to the DOM
+### 06] Back to the DOM
 <details>
   <summary>Details</summary>
   <p>
   Here, we upgrade the previous project by learning more about the DOM and what tools the browser provides us.
+  <br>
+  </p>
+</details>
+
+### 07] Managing events
+<details>
+  <summary>Details</summary>
+  <p>
+  This is another update of the previous project, implementing drag and drop for the courses.
+  <br>
+  </p>
+</details>
+
+### 08] Drag'n'Drop practice
+<details>
+  <summary>Details</summary>
+  <p>
+  I just wanted to make sure I understood the previous project and decided to make a small project dealing with drag'n'drop.
+  <br>
+  </p>
+</details>
+
+### 09] HTTP requests
+<details>
+  <summary>Details</summary>
+  <p>
+  This projects deals with calling an API (a fake one here) and sending requests to it.<br>
+  There are several scripts because different approaches: fetch API, XMLHttpRequest for older web browsers.<br>
+  It uses JSON formatted data but also form data.
+  <br>
+  </p>
+</details>
+
+### 99] DUMMY DATA
+<details>
+  <summary>Details</summary>
+  <p>
+  Modules I want to keep if I need to check for lessons.
   <br>
   </p>
 </details>
