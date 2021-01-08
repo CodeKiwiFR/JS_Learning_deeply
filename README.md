@@ -1,7 +1,7 @@
 # JS_Learning_deeply
 
-In order to teach myself about JS, I have been following Academind course about JS.<br>
-Here are the small projects from the course.<br><br>
+In order to teach myself about JS, I have been following Academind course.<br>
+Here are the small projects from the course.<br>
 
 <details>
   <summary><b>00] Monster Attack</b></summary>
